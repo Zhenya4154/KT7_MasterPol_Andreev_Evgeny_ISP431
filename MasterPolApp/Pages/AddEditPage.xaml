@@ -1,0 +1,57 @@
+﻿<Page x:Class="MasterPolApp.Pages.AddEditPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MasterPolApp.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddEditPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <Label Content="Наименование:" FontSize="20"></Label>
+            <TextBox x:Name="NamePartnerTextBox" HorizontalContentAlignment="Center"
+                     VerticalContentAlignment="Center"></TextBox>
+            <Label Content="Тип:" FontSize="20"></Label>
+            <ComboBox x:Name="TypePartnerComboBox" HorizontalContentAlignment="Center"
+                      VerticalContentAlignment="Center"></ComboBox>
+            <Label Content="Рейтинг:" FontSize="20"></Label>
+            <TextBox x:Name="RatingTextBox" HorizontalContentAlignment="Center"
+                     VerticalContentAlignment="Center"></TextBox>
+            <Label Content="Индекс:" FontSize="20"></Label>
+            <TextBox x:Name="IndexTextBox" HorizontalContentAlignment="Center"
+                     VerticalContentAlignment="Center"></TextBox>
+            <Label Content="Область:" FontSize="20"></Label>
+            <TextBox x:Name="AreoTextBox" HorizontalContentAlignment="Center"
+                     VerticalContentAlignment="Center"></TextBox>
+            <Label Content="Город:" FontSize="20"></Label>
+            <TextBox x:Name="CityTextBox" HorizontalContentAlignment="Center"
+                     VerticalContentAlignment="Center"></TextBox>
+         </StackPanel>
+        <StackPanel Grid.Column="1" HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <Label Content="Улица:" FontSize="20"></Label>
+            <TextBox x:Name="StreetTextBox" HorizontalContentAlignment="Center"
+                     VerticalContentAlignment="Center"></TextBox>
+            <Label Content="Дом:" FontSize="20"></Label>
+            <TextBox x:Name="HouseTextBox" HorizontalContentAlignment="Center"
+                     VerticalContentAlignment="Center"></TextBox>
+            <Label Content="Директор:" FontSize="20"></Label>
+            <TextBox x:Name="NameDirectorTextBox" HorizontalContentAlignment="Center"
+                     VerticalContentAlignment="Center"></TextBox>
+            <Label Content="Телефон:" FontSize="20"></Label>
+            <TextBox x:Name="NumberPhoneTextBox" HorizontalContentAlignment="Center"
+                     VerticalContentAlignment="Center"></TextBox>
+            <Label Content="Почта:" FontSize="20"></Label>
+            <TextBox x:Name="EmailTextBox" HorizontalContentAlignment="Center"
+                     VerticalContentAlignment="Center"></TextBox>
+        </StackPanel>
+    </Grid>
+</Page>

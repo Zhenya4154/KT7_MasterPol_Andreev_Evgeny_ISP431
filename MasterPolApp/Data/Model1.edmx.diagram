@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="86978c35fdaa4bf1aa8575ed30686bf1" Name="Diagram1">
+        <EntityTypeShape EntityType="DatabaseMasterPolModel.Address" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMasterPolModel.MaterialTypeImport" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMasterPolModel.NameArea" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMasterPolModel.NameCity" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMasterPolModel.NameDirector" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMasterPolModel.NameStreet" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMasterPolModel.NumberIndex" Width="1.5" PointX="0.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMasterPolModel.PartnerImport" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMasterPolModel.PartnerProductImport" Width="1.5" PointX="7.5" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMasterPolModel.ProductImport" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMasterPolModel.ProductTypeImport" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMasterPolModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMasterPolModel.TypePartner" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseMasterPolModel.FK_Address_NameArea" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMasterPolModel.FK_Address_NameCity" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMasterPolModel.FK_Address_NameStreet" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMasterPolModel.FK_Address_NumberIndex" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMasterPolModel.FK_PartnerImport_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMasterPolModel.FK_PartnerImport_NameDirector" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMasterPolModel.FK_PartnerImport_TypePartner" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMasterPolModel.FK_PartnerProductImport_PartnerImport" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMasterPolModel.FK_PartnerProductImport_ProductImport" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMasterPolModel.FK_ProductImport_ProductTypeImport" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

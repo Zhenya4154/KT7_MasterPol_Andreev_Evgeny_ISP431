@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище DatabaseMasterPolModelContainer" CdmEntityContainer="DatabaseMasterPolEntities">
+    <EntitySetMapping Name="Address">
+      <EntityTypeMapping TypeName="DatabaseMasterPolModel.Address">
+        <MappingFragment StoreEntitySet="Address">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdIndex" ColumnName="IdIndex" />
+          <ScalarProperty Name="IdArea" ColumnName="IdArea" />
+          <ScalarProperty Name="IdCity" ColumnName="IdCity" />
+          <ScalarProperty Name="IdStreet" ColumnName="IdStreet" />
+          <ScalarProperty Name="Home" ColumnName="Home" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MaterialTypeImport">
+      <EntityTypeMapping TypeName="DatabaseMasterPolModel.MaterialTypeImport">
+        <MappingFragment StoreEntitySet="MaterialTypeImport">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TypeMaterial" ColumnName="TypeMaterial" />
+          <ScalarProperty Name="PercentOfMaterialDefects" ColumnName="PercentOfMaterialDefects" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NameArea">
+      <EntityTypeMapping TypeName="DatabaseMasterPolModel.NameArea">
+        <MappingFragment StoreEntitySet="NameArea">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NameCity">
+      <EntityTypeMapping TypeName="DatabaseMasterPolModel.NameCity">
+        <MappingFragment StoreEntitySet="NameCity">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="City" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NameDirector">
+      <EntityTypeMapping TypeName="DatabaseMasterPolModel.NameDirector">
+        <MappingFragment StoreEntitySet="NameDirector">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Director" ColumnName="Director" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NameStreet">
+      <EntityTypeMapping TypeName="DatabaseMasterPolModel.NameStreet">
+        <MappingFragment StoreEntitySet="NameStreet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NumberIndex">
+      <EntityTypeMapping TypeName="DatabaseMasterPolModel.NumberIndex">
+        <MappingFragment StoreEntitySet="NumberIndex">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NameIndex" ColumnName="NameIndex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartnerImport">
+      <EntityTypeMapping TypeName="DatabaseMasterPolModel.PartnerImport">
+        <MappingFragment StoreEntitySet="PartnerImport">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdTypePartner" ColumnName="IdTypePartner" />
+          <ScalarProperty Name="NamePartner" ColumnName="NamePartner" />
+          <ScalarProperty Name="IdNameDirector" ColumnName="IdNameDirector" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="NumberPhone" ColumnName="NumberPhone" />
+          <ScalarProperty Name="IdAddress" ColumnName="IdAddress" />
+          <ScalarProperty Name="INN" ColumnName="INN" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartnerProductImport">
+      <EntityTypeMapping TypeName="DatabaseMasterPolModel.PartnerProductImport">
+        <MappingFragment StoreEntitySet="PartnerProductImport">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="IdNamePartner" ColumnName="IdNamePartner" />
+          <ScalarProperty Name="QuantityProduct" ColumnName="QuantityProduct" />
+          <ScalarProperty Name="DateSale" ColumnName="DateSale" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductImport">
+      <EntityTypeMapping TypeName="DatabaseMasterPolModel.ProductImport">
+        <MappingFragment StoreEntitySet="ProductImport">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdTypeProduct" ColumnName="IdTypeProduct" />
+          <ScalarProperty Name="NameProduct" ColumnName="NameProduct" />
+          <ScalarProperty Name="Article" ColumnName="Article" />
+          <ScalarProperty Name="MinCostForPartner" ColumnName="MinCostForPartner" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductTypeImport">
+      <EntityTypeMapping TypeName="DatabaseMasterPolModel.ProductTypeImport">
+        <MappingFragment StoreEntitySet="ProductTypeImport">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TypeProduct" ColumnName="TypeProduct" />
+          <ScalarProperty Name="ProductTypeCoef" ColumnName="ProductTypeCoef" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DatabaseMasterPolModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypePartner">
+      <EntityTypeMapping TypeName="DatabaseMasterPolModel.TypePartner">
+        <MappingFragment StoreEntitySet="TypePartner">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
