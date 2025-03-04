@@ -97,16 +97,6 @@
     <Property Name="TypeProduct" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="ProductTypeCoef" Type="decimal" Precision="10" Scale="2" Nullable="false" />
   </EntityType>
-  <EntityType Name="sysdiagrams">
-    <Key>
-      <PropertyRef Name="diagram_id" />
-    </Key>
-    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
-    <Property Name="principal_id" Type="int" Nullable="false" />
-    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="version" Type="int" />
-    <Property Name="definition" Type="varbinary(max)" />
-  </EntityType>
   <EntityType Name="TypePartner">
     <Key>
       <PropertyRef Name="Id" />
@@ -246,7 +236,6 @@
     <EntitySet Name="PartnerProductImport" EntityType="Self.PartnerProductImport" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="ProductImport" EntityType="Self.ProductImport" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="ProductTypeImport" EntityType="Self.ProductTypeImport" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TypePartner" EntityType="Self.TypePartner" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_Address_NameArea" Association="Self.FK_Address_NameArea">
       <End Role="NameArea" EntitySet="NameArea" />

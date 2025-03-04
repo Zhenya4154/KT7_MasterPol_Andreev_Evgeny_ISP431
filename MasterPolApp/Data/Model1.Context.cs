@@ -20,10 +20,10 @@ namespace MasterPolApp.Data
             : base("name=DatabaseMasterPolEntities")
         {
         }
-        
+
         public static DatabaseMasterPolEntities GetContext()
         {
-            if(_context == null)
+            if (_context == null)
             {
                 _context = new DatabaseMasterPolEntities();
             }
@@ -45,7 +45,6 @@ namespace MasterPolApp.Data
         public virtual DbSet<PartnerProductImport> PartnerProductImport { get; set; }
         public virtual DbSet<ProductImport> ProductImport { get; set; }
         public virtual DbSet<ProductTypeImport> ProductTypeImport { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<TypePartner> TypePartner { get; set; }
     }
 }

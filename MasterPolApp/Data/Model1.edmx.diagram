@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="86978c35fdaa4bf1aa8575ed30686bf1" Name="Diagram1">
+      <Diagram DiagramId="4ebce153cc024ecbbde9cb3548629297" Name="Diagram1">
         <EntityTypeShape EntityType="DatabaseMasterPolModel.Address" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
         <EntityTypeShape EntityType="DatabaseMasterPolModel.MaterialTypeImport" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
         <EntityTypeShape EntityType="DatabaseMasterPolModel.NameArea" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
@@ -16,7 +16,6 @@
         <EntityTypeShape EntityType="DatabaseMasterPolModel.PartnerProductImport" Width="1.5" PointX="7.5" PointY="1.625" IsExpanded="true" />
         <EntityTypeShape EntityType="DatabaseMasterPolModel.ProductImport" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
         <EntityTypeShape EntityType="DatabaseMasterPolModel.ProductTypeImport" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
-        <EntityTypeShape EntityType="DatabaseMasterPolModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
         <EntityTypeShape EntityType="DatabaseMasterPolModel.TypePartner" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
         <AssociationConnector Association="DatabaseMasterPolModel.FK_Address_NameArea" ManuallyRouted="false" />
         <AssociationConnector Association="DatabaseMasterPolModel.FK_Address_NameCity" ManuallyRouted="false" />

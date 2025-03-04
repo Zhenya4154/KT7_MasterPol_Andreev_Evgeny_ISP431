@@ -116,16 +116,6 @@
     <Property Name="ProductTypeCoef" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
     <NavigationProperty Name="ProductImport" Relationship="Self.FK_ProductImport_ProductTypeImport" FromRole="ProductTypeImport" ToRole="ProductImport" />
   </EntityType>
-  <EntityType Name="sysdiagrams">
-    <Key>
-      <PropertyRef Name="diagram_id" />
-    </Key>
-    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="principal_id" Type="Int32" Nullable="false" />
-    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="version" Type="Int32" />
-    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
-  </EntityType>
   <EntityType Name="TypePartner">
     <Key>
       <PropertyRef Name="Id" />
@@ -266,7 +256,6 @@
     <EntitySet Name="PartnerProductImport" EntityType="Self.PartnerProductImport" />
     <EntitySet Name="ProductImport" EntityType="Self.ProductImport" />
     <EntitySet Name="ProductTypeImport" EntityType="Self.ProductTypeImport" />
-    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
     <EntitySet Name="TypePartner" EntityType="Self.TypePartner" />
     <AssociationSet Name="FK_Address_NameArea" Association="Self.FK_Address_NameArea">
       <End Role="NameArea" EntitySet="NameArea" />

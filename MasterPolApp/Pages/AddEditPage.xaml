@@ -21,13 +21,13 @@
                      VerticalContentAlignment="Center"></TextBox>
             <Label Content="Тип:" FontSize="20"></Label>
             <ComboBox x:Name="TypePartnerComboBox" HorizontalContentAlignment="Center"
-                      VerticalContentAlignment="Center"></ComboBox>
+                      VerticalContentAlignment="Center" DisplayMemberPath="Type"></ComboBox>
             <Label Content="Рейтинг:" FontSize="20"></Label>
             <TextBox x:Name="RatingTextBox" HorizontalContentAlignment="Center"
                      VerticalContentAlignment="Center"></TextBox>
             <Label Content="Индекс:" FontSize="20"></Label>
             <TextBox x:Name="IndexTextBox" HorizontalContentAlignment="Center"
-                     VerticalContentAlignment="Center"></TextBox>
+                     VerticalContentAlignment="Center" MaxLength="6"></TextBox>
             <Label Content="Область:" FontSize="20"></Label>
             <TextBox x:Name="AreoTextBox" HorizontalContentAlignment="Center"
                      VerticalContentAlignment="Center"></TextBox>
@@ -52,6 +52,9 @@
             <Label Content="Почта:" FontSize="20"></Label>
             <TextBox x:Name="EmailTextBox" HorizontalContentAlignment="Center"
                      VerticalContentAlignment="Center"></TextBox>
+            <Button x:Name="SaveButton" Click="SaveButton_Click" Content="Сохранить"
+                    Margin="10"></Button>
+            <Button x:Name="BackButton" Click="BackButton_Click" Content="Назад"></Button>
         </StackPanel>
     </Grid>
 </Page>

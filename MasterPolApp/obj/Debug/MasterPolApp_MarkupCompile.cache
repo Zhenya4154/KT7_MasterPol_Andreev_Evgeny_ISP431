@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\comcuru\Desktop\Andreev_Evgeny_ISP431_MasterPol\MasterPolApp\obj\Debug\
+C:\Users\comcuru\Desktop\KT7_MasterPol_Andreev_Evgeny_ISP431\MasterPolApp\obj\Debug\
 MasterPolApp
 none
 false
 DEBUG;TRACE
-C:\Users\comcuru\Desktop\Andreev_Evgeny_ISP431_MasterPol\MasterPolApp\App.xaml
-2810205174
+C:\Users\comcuru\Desktop\KT7_MasterPol_Andreev_Evgeny_ISP431\MasterPolApp\App.xaml
+4733092959
 2-747231112
-23160945429
-18561553331
-MainWindow.xaml;Pages\PartnerListViewPage.xaml;
+24-1219512677
+18473004891
+MainWindow.xaml;Pages\AddEditPage.xaml;Pages\HistoryDataGridPage.xaml;Pages\PartnerListViewPage.xaml;
 
 False
 

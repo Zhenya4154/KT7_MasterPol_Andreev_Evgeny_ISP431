@@ -1,4 +1,4 @@
-﻿// Создание кода T4 для модели "C:\Users\comcuru\Desktop\Andreev_Evgeny_ISP431_MasterPol\MasterPolApp\Data\Model1.edmx" включено. 
+﻿// Создание кода T4 для модели "C:\Users\comcuru\Desktop\KT7_MasterPol_Andreev_Evgeny_ISP431\MasterPolApp\Data\Model1.edmx" включено. 
 // Чтобы включить формирование кода прежних версий, измените значение свойства "Стратегия создания кода" конструктора
 // на "Legacy ObjectContext". Это свойство доступно в окне "Свойства", если модель
 // открыта в конструкторе.
